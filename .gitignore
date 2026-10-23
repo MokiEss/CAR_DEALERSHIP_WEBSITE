@@ -1,0 +1,24 @@
+
+# Dépendances
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Builds
+client/dist/
+
+# Variables d'environnement et secrets
+.env
+.env.*
+!.env.example
+client/.env
+client/.env.*
+server/.env
+server/.env.*
+
+# Fichiers macOS
+.DS_Store
+
+# Photos uploadées en local
+server/public/uploads/*
+!server/public/uploads/.gitkeep
